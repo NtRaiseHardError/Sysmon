@@ -4,6 +4,8 @@
 
 Execute arbitrary shellcode in the kernel.
 
+Related blog post: https://undev.ninja/sysmon-internals-from-file-delete-event-to-kernel-code-execution/
+
 ### Impacted Versions
 
 * 11.0

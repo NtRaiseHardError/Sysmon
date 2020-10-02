@@ -33,7 +33,7 @@ meta:
  date = "30-09-2020"
  author = "SBousseaden"
  description = "hunt for possible injection with Instrumentation Callback PE"
- reference = "https://undev.ninja/p/9af8ac08-4879-4d87-a92b-ff4abc778908/"
+ reference = "https://undev.ninja/sysmon-internals-from-file-delete-event-to-kernel-code-execution/"
 strings:
  $sc1 = {90 51 B9 00 48 8D 0D DB 1F 00 00 44 89 7C 24 48 41 8B F7 4C 89 BD F0 01} 
  $sc2 = {65 C7 85 B8 01 00 00 48 8B 04 25} 

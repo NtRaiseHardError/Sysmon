@@ -6,6 +6,10 @@ Execute arbitrary shellcode in the kernel.
 
 Related blog post: https://undev.ninja/sysmon-internals-from-file-delete-event-to-kernel-code-execution/
 
+### Sysmons
+
+Vulnerable versions of Sysmon (version 11.0 - 12.0).
+
 ### Impacted Versions
 
 * 11.0

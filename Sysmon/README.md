@@ -6,6 +6,8 @@ Execute arbitrary shellcode in the kernel.
 
 Related blog post: https://undev.ninja/sysmon-internals-from-file-delete-event-to-kernel-code-execution/
 
+Credits to [@SBousseaden](https://twitter.com/SBousseaden) for hashes and YARA signature.
+
 ### Sysmons.zip
 
 Vulnerable versions of Sysmon (version 11.0 - 12.0).
@@ -29,7 +31,7 @@ c0640d0d9260689b1c6c63a60799e0c8e272067dcf86847c882980913694543a
 7e1d7cfe0bdf5f17def755ae668c780dedb027164788b4bb246613e716688840
 ```
 
-### Yara Signature
+### YARA Signature
 
 ```
 rule Sysmon_KExec_KPPL {
